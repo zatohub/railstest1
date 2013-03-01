@@ -1,4 +1,6 @@
 Fourthapp::Application.routes.draw do
+  get "pusers/new"
+
   get "users/new"
 
   get "static_pages/home"
